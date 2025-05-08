@@ -1,6 +1,8 @@
 //------------------------------------------------------------------------------
 // File: testbench.sv
-// Description: Top-level testbench module for UVM-based verification of yarp_top
+// Description: Top-level testbench module for UVM-based verification of yarp_top.
+//              Instantiates the DUT, clock generator, and interface. Sets up the
+//              virtual interface connection and initiates the UVM test framework.
 //------------------------------------------------------------------------------
 `include "CYCLE.sv"  // Defines clock cycle time using `CYCLE macro
 `include "clkgen.sv" // Clock generator module definition
